@@ -1,7 +1,9 @@
 import androids from './android';
 import cameras from './camera';
 import laptops from './laptop';
-
+import 'bootstrap/dist/css/bootstrap.css';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
 const fakeData = [...androids, ...cameras, ...laptops];
 
 
